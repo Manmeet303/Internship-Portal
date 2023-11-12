@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.contactus{
+    width: 100%;
+    height: 120vh;
+    /* background-color: aqua; */
+}
+.Home .contactus .contactus-box .contactus-table{
+    border: 3px solid #7aa9f5;
+    width: 100%;
+    height: 100vh;
+    color: #111;
+} 
+.Home .contactus .contactus-box .contactus-table .contact-form1{
+    width: 50%;
+    /* background-color: #7aa9f5; */
+}
+.form{
+    margin-top: 0%;
+    margin-left: 35px;
+}
+
+.Home .contactus .contactus-box .contactus-table .contact-form1 .input{
+
+    width: 60%;
+    /* border: 2px solid #fafafa; */
+    border: 2px solid #111;
+    background: none;
+    padding: 5px 20px;
+    /* color: #fff; */
+    color: #111;
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    border-radius: 25px;
+    transition: 0.3s;
+
+}
+.Home .contactus .contactus-box .contactus-table .contact-form1 .input-message{
+
+    width: 60%;
+    /* border: 2px solid #fafafa; */
+    border: 2px solid #111;
+    background: none;
+    padding: 35px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    border-radius: 25px;
+    transition: 0.3s;
+
+}
+.innputcontainer{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    /* margin-left: 50px; */
+}
+
+.form .heading{
+    color: #111;
+    padding-top: 20px;
+}
+.form .contactheading{
+    color: #111;
+    padding-top: 20px;
+}
+.form .button1{
+    padding: 10px 20px;
+    background-color: rgb(49, 71, 168);
+    border: 2px solid #fafafa;
+    font-size: 0.95rem;
+    /* color: #7aa9f5; */
+    color: #111;
+    line-height: 1;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 100px;
+}
+
+
+
+
+.Home .contactus .contactus-box .contactus-table .contactinfo .contactinfo-title,
+.Home .contactus .contactus-box .contactus-table .contactinfo .contactinfo-email,
+.Home .contactus .contactus-box .contactus-table .contactinfo .contactinfo-number,
+.Home .contactus .contactus-box .contactus-table .contactinfo .contactinfo-miniheading
+{
+    color: navy;
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.social-icons{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 50px;
+}
+.social-icons .icons{
+    padding-left: 50px;
+}
+
+
+
+
+
+@media screen and (max-width:1024px){
+    .form .button1{
+        margin-left: 0px
+    }
+    .form .heading{
+        font-size: 0.9rem;
+    }
+    .form .contactheading{
+        font-size: 01.2rem;
+    }
+}
+@media screen and (max-width:977px)
+{
+    .form{
+        margin: 0%;
+    }
+    .contactus-section{
+       
+        padding: 0%;
+        margin-left: 0%;
+        height: 140vh;
+    }
+
+}
+
+@media screen and (max-width:800px){
+    .contactus-section{
+        display: none;
+    }
+}

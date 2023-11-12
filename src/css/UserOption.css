@@ -1,0 +1,53 @@
+.userOption .profile-icon {
+    cursor: pointer;
+    padding: 3px 10px;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.useroption-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.options {
+    height: fit-content;
+    min-width: 100px;
+    background-color: white;
+    position: absolute;
+    top: 9%;
+    right:3%;
+    border: 0.5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index: 100;
+    margin: 0 5%;
+    /* border-radius: 3px; */
+    text-align: center;
+}
+.options .profile-option {
+    border-bottom: 1px solid black;
+    padding: 2px 10px;
+    text-align: center;
+    /* padding-bottom: px; */
+}
+.options .profile-option:hover,
+.options .logout-option:hover {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.options .logout-option:hover {
+    /* background-color: #ff746f; */
+}
+.options .logout-option {
+    padding: 2px 10px;
+}
+.close-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 50;
+}

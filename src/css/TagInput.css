@@ -1,0 +1,38 @@
+/**
+ * By Malay(Dont Change)
+ */
+.TagInput {
+    border: 1px solid rgb(0, 0, 0);
+}
+.TagInput input {
+    border: none;
+    width: 100%;
+}
+#Tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+.Tag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 1px 5px;
+    list-style: none;
+    border-radius: 6px;
+    margin: 2px;
+    background: #0052cc;
+}
+.Tag .TagRemove {
+    display: block;
+    font-size: 14px;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin-left: 8px;
+    cursor: pointer;
+    color: #0052cc;
+    background: #fff;
+    border-radius: 50%;
+}

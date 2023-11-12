@@ -1,0 +1,107 @@
+/**
+ * By Malay(Dont Change)
+ */
+.Internship .HeaderCard p {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 5px 20px;
+    margin: 5px;
+}
+.Internship .HeaderCard a {
+    background-color: dodgerblue;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 5px 20px;
+    margin: 5px;
+    border-radius: 50px;
+}
+.InternshipCard table,
+.AddInternship table,
+.UpdateInternship table {
+    text-align: left;
+    margin: auto;
+    font-size: 15px;
+}
+.AddInternship table thead,
+.UpdateInternship table thead {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.AddInternship table thead tr#Heading,
+.UpdateInternship table thead tr#Heading {
+    font-weight: 600;
+    font-size: 30px;
+}
+.AddInternship table thead tr#SubHeading,
+.UpdateInternship table thead tr#SubHeading {
+    font-size: 15px;
+}
+.AddInternship table tbody tr,
+.UpdateInternship table tbody tr {
+    margin: 20px 10px;
+}
+.AddInternship table tbody th,
+.UpdateInternship table tbody th {
+    width: 150px;
+    padding: 5px 10px;
+}
+
+.AddInternship table tbody td,
+.UpdateInternship table tbody td {
+    width: 350px;
+}
+.AddInternship table tbody td textarea,
+.UpdateInternship table tbody td textarea,
+.AddInternship table tbody td input,
+.UpdateInternship table tbody td input {
+    width: 100%;
+    padding: 8px 10px;
+}
+.AddInternship table tfoot tr td#submit,
+.UpdateInternship table tfoot tr td#submit {
+    text-align: center;
+}
+.InternshipCard table tfoot tr input[type="button"],
+.AddInternship table tfoot tr input[type="button"],
+.UpdateInternship table tfoot tr input[type="button"] {
+    width: 200px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #fff;
+    margin: 2px 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.AddInternship table tfoot tr input[type="button"],
+.UpdateInternship table tfoot tr input[type="button"] {
+    background-color: dodgerblue;
+}
+.InternshipCard table {
+    margin: 10px auto;
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0, 0.1);
+    padding: 10px 20px;
+}
+.InternshipCard table tr th {
+    width: 150px;
+    padding: 2px;
+}
+.InternshipCard table tr td {
+    width: 300px;
+    padding: 2px;
+}
+.InternshipCard #title {
+    font-size: 25px;
+}
+.InternshipCard input[type="button"].primary {
+    background-color: dodgerblue;
+}
+.InternshipCard input[type="button"].error {
+    background-color: tomato;
+}
+.InternshipCard input[type="button"].success {
+    background-color: mediumseagreen;
+}

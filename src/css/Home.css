@@ -1,0 +1,757 @@
+.Home {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.Home .image{
+    background: white;
+    /* background-image: linear-gradient(to right, rgba(255,255,255,0.5),  rgba(255,255,255,0.7)),url(../views/Images/bg3.jpg); */
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.Home .image .flex-image .img-container{
+    background-image: url(../views/Images/intro.png);
+    background-repeat: no-repeat;
+    padding-left: 550px;
+    height: 50vh;
+}
+.Home .image .flex-image{
+  display: flex;
+  justify-content:space-between;
+
+}
+.Home .image .web-heading{
+  font-family:Arial, Helvetica, sans-serif;
+  margin-left: 0%;
+  padding-left: 0%;
+  padding-top: 50px;
+  color: navy;
+}
+
+.auto-text {
+  font-weight: bold;
+  font-size: 1.7em;
+  /* width: 50%; */
+  padding-left: 60px;
+  color: rgb(35, 26, 85);
+}
+
+.image .paragraph {
+  padding: 30px;
+  color: navy;
+  /* width: 50%; */
+}
+
+.search-form {
+  text-align: center;
+  justify-content: center;
+  }
+  .search-form2 {
+    padding-top: 100px;
+    text-align: center;
+    justify-content: center;
+    display: none;
+    }
+  
+
+  
+  
+  
+  .keyword,
+  .Location,
+  .time,
+  .search-button {
+  font-size: 01rem;
+  color: #fff;
+  background-color: blue;
+  border: none;
+  cursor: pointer;
+  margin:10px;
+    width: 140px;
+    height: 7vh;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  
+
+
+
+
+#background-img-slide {
+  width: 100%;
+  height: 70vh;
+  background: url(../views/Images/i2.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.9;
+}
+.career-statics {
+  margin-top: 0px;
+  background-color: blue;
+  height: 70vh;
+  opacity: 0.7;
+}
+.Home .career-statics .heading1 {
+  color: rgb(255, 255, 255);
+}
+
+.Home .career-statics .flex-statistics{
+display: flex;
+justify-content: space-around;
+
+}
+
+.Home .career-statics .flex-statistics .candidates{
+/* padding:30px 70px; */
+color: white;
+font-size: 3.5rem;
+}
+
+.Home .career-statics .detail1{
+color: white;
+font-size: 0.7rem;
+}
+.Home .career-statics .detail2{
+color: white;
+font-size: 0.7rem;
+}
+.Home .career-statics .detail3{
+color: white;
+font-size: 0.7rem;
+}
+.Home .career-statics .detail4{
+
+color: white;
+font-size: 0.7rem;
+}
+.Home section {
+  padding: 100px;
+  color: rgb(255, 255, 255);
+}
+
+.Home section h1 {
+  font-size: 2.5em;
+  text-align: center;
+  color: rgb(66, 65, 65);
+}
+
+.Home section p {
+  text-align: center;
+  color: rgb(255, 9, 103);
+}
+.Home .categories {
+padding-top: 2%;
+  width: 100%;
+  height: 160vh;
+}
+
+.Home .categories .browse-category1,
+.Home .categories .browse-category2 {
+display: flex;
+overflow-x: scroll;
+padding-top: 20px;
+}
+.Home .categories .browse-category1 .category1,
+.Home .categories .browse-category1 .category2,
+.Home .categories .browse-category1 .category3,
+.Home .categories .browse-category1 .category4,
+.Home .categories .browse-category2 .category1,
+.Home .categories .browse-category2 .category2,
+.Home .categories .browse-category2 .category3,
+.Home .categories .browse-category2 .category4 {
+margin: 15px;
+}
+
+
+.Home .Apply-process {
+  width: 100%;
+  height: 100vh;
+  /* background-image: url(../views/Images/i3.jpg); */
+  /* background-size: cover; */
+  justify-content: space-between;
+}
+.Home .Apply-process .apply-label {
+  color: rgb(65, 65, 65);
+}
+
+.Home .Apply-process .apply-para{
+  margin-top: 0%;
+  color: rgb(241, 4, 95);
+  font-size: 1.2em;
+}
+.Home .Apply-process .Apply-process-category {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Home .candidate-works {
+width: 100%;
+height: 80vh;
+/* background-color: aqua; */
+background-color: rgb(248, 241, 248);
+
+}
+.Home .candidate-works .logo-images .logo1 {
+  width: 150px;
+  height: 22vh;
+  background-image: url(../views/Images/logo1.png);
+  background-size: 100% 100%;
+  border-radius: 50%;
+}
+.Home .candidate-works .logo-images .logo2 {
+  width: 150px;
+  height: 22vh;
+  background-image: url(../views/Images/logo2.jpg);
+  background-size: 100% 100%;
+  border-radius: 50%;
+
+}
+.Home .candidate-works .logo-images .logo3 {
+  width: 150px;
+  height: 22vh;
+  background-image: url(../views/Images/logo3.jpg);
+  background-size: 100% 100%;
+  border-radius: 50%;
+
+}
+.Home .candidate-works .logo-images .logo4 {
+  width: 150px;
+  height: 22vh;
+  background-image: url(../views/Images/logo4.png);
+  background-size: 100% 100%;
+  border-radius: 50%;
+
+}
+.Home .candidate-works .logo-images {
+  
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#experience-img-slide {
+  width: 100%;
+  height: 50vh;
+  /* background-image: url(../views/Images/i2.jpg); */
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  /* opacity: 0.8; */
+}
+
+
+.Home .user-experience {
+  background-color: rgb(248, 241, 248);
+  height: 130vh;
+}
+
+.Home .user-experience .client-review{
+  font-size: 2.5em;
+  text-align: center;
+  color: rgb(66, 65, 65);
+}
+.Home .user-experience .client-review-para{
+  text-align: center;
+  color: rgb(255, 9, 103);
+}
+.Home .user-experience .flex-experience-card .experience1{
+  padding-left: 50px;
+  margin-top: 30px;
+}
+  .Home .user-experience .flex-experience-card{
+  display: flex;
+  overflow-x: scroll;
+  height: 90vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Css Code for Responsive */
+
+@media screen and (max-width: 1290px){
+  .keyword,
+  .Location,
+  .time,
+  .search-button{
+    width: 120px;
+    font-size: 0.8rem;
+  }
+  .search-form{
+    padding-left: 70px;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    /* body{
+      background-color: lightblue;
+    } */
+
+    .Home .career-statics{
+      width: 100%;
+      height: 50vh;
+    }
+    .Home .image{
+    height: 90vh;
+    }
+  .keyword,
+  .Location,
+  .time,
+  .search-button{
+    width: 140px;
+    font-size: 1rem;
+  }
+
+    .search-form{
+      display: none;
+    }
+
+    .Home .image .flex-image .img-container{
+      /* width: 100px; */
+      padding-left: 600px;
+    }
+    .auto-text {
+      z-index: 1;
+      /* font-size: 1.1rem; */
+      /* width: 550px; */
+    }
+   
+
+    .search-form2{
+      margin-top: 0%;
+      padding-top: 10px;
+      display: block;
+    }
+
+    #background-img-slide{
+      width: 100%;
+      height: 50vh;
+
+    }
+    .Home .categories{
+      height: 170vh;
+    }
+.Home .career-statics .heading1 {
+  font-size: 1.8rem;
+  margin-top: 0%;
+}
+.Home .career-statics .flex-statistics {
+  width: 100%;
+  justify-content: space-around;
+}
+
+.Home .career-statics .flex-statistics .candidates {
+        font-size: 2.5rem;
+}
+.Home .career-statics .flex-details {
+    justify-content: space-around;
+}
+
+.Home .Apply-process{
+  height: 170vh;
+}
+.Home .Apply-process .Apply-process-category {
+    display: flex;
+    flex-wrap: wrap;
+}
+.Home .Apply-process .Apply-process-category .category1,
+.Home .Apply-process .Apply-process-category .category2,
+.Home .Apply-process .Apply-process-category .category3 {
+  padding: 20px;
+
+}
+.Home .experience .user1 {
+  padding-top:25px;
+  justify-content: space-between;
+}
+.Home .experience .user1 .user-image1{
+  width: 190px;
+  height: 120px;
+}
+.Home .experience .user1 .italic-text{
+  font-size: 01rem;
+  padding-left: 0%;
+}
+
+.Home .candidate-works .logo-images {
+  flex-wrap: wrap;
+}
+
+
+}
+
+
+
+
+@media screen and (max-width: 976px) {
+  /* body{
+    background-color: rgb(233, 86, 86);
+  } */
+  .Home .search-form{
+    margin: 0%;
+    padding: 50px 0%;
+  }
+  .Home .career-statics .flex-statistics {
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  .Home .career-statics .flex-statistics .candidates {
+          font-size: 1.7rem;
+  }
+  .Home .career-statics .flex-details {
+      justify-content: space-around;
+  }
+
+}
+
+
+
+
+@media screen and (max-width: 896px) {
+  /* body{
+    background-color: rgb(255, 251, 2);
+  }
+   */
+  .Home .search-form{
+    margin: 0%;
+    padding: 50px 0%;
+  }
+
+  .Home .search-form .keyword,
+  .Home .search-form .Location,
+  .Home .search-form .time,
+  .Home .search-form .search-button{
+    width: 150px;
+  }
+
+.Home .user-experience{
+  height: 140vh;
+}
+.Home .user-experience .flex-experience-card{
+  height: 105vh;
+}
+  
+  .Home .candidate-works .our-candidate-heading,
+  .Home .Apply-process .apply-label,
+  .Home .job-listed .job-label,
+  .Home .categories .category-label,
+  .Home .user-experience .client-review{
+    font-size: 40px;
+
+  }
+  .Home .career-statics .flex-statistics {
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  .Home .career-statics .flex-statistics .candidates {
+          font-size: 1.5rem;
+  }
+  .Home .career-statics .flex-details {
+      justify-content: space-around;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 836px) {
+
+/* body{
+  background-color: olivedrab;
+} */
+
+.Home .image{
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(255,255,255,0.7),  rgba(255,255,255,0.99)),url(../views/Images/intro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Home .image{
+height: 70vh;
+}
+.Home .image .flex-image .img-container{
+  display: none;
+}
+
+.Home .search-form2 .keyword,
+.Home .search-form2 .Location,
+.Home .search-form2 .time,
+.Home .search-form2 .search-button{
+  width: 120px;
+  font-size: 0.9rem;
+}
+
+.Home .career-statics{
+  width: 100%;
+}
+.Home .career-statics .flex-statistics {
+  width: 100%;
+  justify-content: space-around;
+}
+
+.Home .career-statics .flex-statistics .candidates {
+        font-size: 1.5rem;
+}
+.Home .career-statics .flex-details {
+    justify-content: space-around;
+}
+
+.Home .Apply-process{
+  height: 230vh;
+}
+.Home .candidate-works .our-candidate-heading,
+.Home .Apply-process .apply-label,
+.Home .job-listed .job-label,
+.Home .categories .category-label,
+.Home .user-experience .client-review{
+  
+  font-size: 25px;
+  font-weight: 700;
+}
+.Home .candidate-works .candidate-para,
+  .Home .Apply-process .apply-para,
+  .Home .job-listed .job-para,
+.Home .user-experience .client-review-para{
+
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+}
+.Home .candidate-works{
+  width: 100%;
+  height: 60vh;
+}
+
+.Home .candidate-works .logo-images .logo1,
+.Home .candidate-works .logo-images .logo2,
+.Home .candidate-works .logo-images .logo3,
+.Home .candidate-works .logo-images .logo4{
+  width:100px;
+  height: 100px;
+}
+
+.Home .experience{
+  width: 100%;
+  height: 480px;
+}
+
+.Home .experience .user1{
+  display: block;
+}
+.Home .experience .user1 .user-image1{
+  width: 140px;
+  height: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Home .experience .user1 .italic-text{
+  width: 100%;
+  height: 120px;
+  padding-top: 25px;
+}
+}
+
+
+
+
+
+@media screen and (max-width:768px){
+
+  /* body{
+    background-color: blueviolet;
+  } */
+
+/* .Home .career-statics{
+  height: 70vh;
+} */
+/* #background-img-slide{
+  height: 70vh;
+} */
+  /* .Home .career-statics .candidates{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 200px;  
+  } */
+  
+}
+
+
+
+
+
+@media screen and (max-width:695px){
+  /* body {
+    background-color: crimson;
+  } */
+
+
+  .Home .image{
+    height: 60vh;
+  }
+  .Home .search-form{
+    display: none;
+  }
+  .Home .search-form2{
+    padding: 0px;
+    display: block;
+  }
+  .Home .search-form2 .keyword,
+  .Home .search-form2 .Location,
+  .Home .search-form2 .time,
+  .Home .search-form2 .search-button{
+    width: 120px;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+ 
+  .Home .image .web-heading{
+    font-size: 1.6rem;
+  }
+  .Home .career-statics .flex-statistics {
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  .Home .career-statics .flex-statistics .candidates {
+          font-size: 1rem;
+  }
+  .Home .career-statics .flex-details {
+      justify-content: space-around;
+  }
+  .Home .candidate-works {
+    width: 100%;
+    height: 80vh;
+  }
+  .Home .candidate-works .our-candidate-heading,
+  .Home .Apply-process .apply-label,
+  .Home .job-listed .job-label,
+  .Home .categories .category-label,
+  .Home .user-experience .client-review{
+
+    font-size: 1.0rem;
+  }
+  .Home .candidate-works .candidate-para,
+  .Home .Apply-process .apply-para,
+  .Home .job-listed .job-para,
+.Home .user-experience .client-review-para
+  {
+    font-size: 0.7rem;
+  }
+ 
+  .Home .auto-text{
+    font-size: 1.5rem;
+  }
+
+}
+
+
+
+
+
+@media screen and (max-width: 520px) {
+  /* body{
+    background-color: black;
+  } */
+
+  .Home .image{
+    height: 70vh;
+  }
+
+  .Home .search-form2{
+    padding: 0px;
+  }
+  .Home .candidate-works .logo-images .logo1,
+.Home .candidate-works .logo-images .logo2,
+.Home .candidate-works .logo-images .logo3,
+.Home .candidate-works .logo-images .logo4{
+  width:100px;
+  height: 100px;
+  margin-bottom: 3px;
+}
+
+#background-img-slide {
+  width: 100%;
+  height: 50vh;
+  
+}
+.career-statics {
+  height: 70vh;
+  /* margin: 0; */
+}
+.Home .career-statics .heading1 {
+  /* margin-top: -30px;  */
+  color: rgb(255, 255, 255);
+}
+
+.Home .career-statics .flex-statistics{
+display: flex;
+justify-content: space-around;
+
+}
+
+.Home .career-statics .flex-statistics .candidates{
+/* padding:30px 70px; */
+color: white;
+font-size: 1.5rem;
+}
+
+.Home .career-statics .detail1{
+color: white;
+font-size: 0.7rem;
+margin-left: 40px;
+}
+.Home .career-statics .detail2{
+color: white;
+font-size: 0.7rem;
+margin-left: 40px;
+
+}
+.Home .career-statics .detail3{
+color: white;
+font-size: 0.7rem;
+margin-left: 40px;
+margin-right: 20px;
+
+}
+.Home .career-statics .detail4{
+
+color: white;
+font-size: 0.7rem;
+}
+
+  /* .Home .search-form2 .keyword,
+  .Home .search-form2 .Location,
+  .Home .search-form2 .time,
+  .Home .search-form2 .search-button{
+    width: 100px;
+    font-size: 0.8rem;
+    text-align: center;
+  } */
+
+}
+
+
+

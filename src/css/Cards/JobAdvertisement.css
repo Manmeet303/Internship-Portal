@@ -1,0 +1,179 @@
+.Advertisement{
+    width: 100%;
+    height: 130px;
+    margin-top: 50px;
+    border-bottom: 3px solid grey;
+    display: flex;
+    justify-content: space-between;
+}
+.Advertisement .addlogo img{
+
+    width: 170px;
+    height: 90px;
+    border-radius: 20px;
+    /* background-color: black;     */
+}
+.Advertisement .addname{
+   margin-left: 60px;
+   margin-top: 30px;
+}
+.Advertisement .addname .companytime{
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 12px;
+    font-weight: 800;
+    width: 200px;
+
+}
+.Advertisement .addname .companyname{
+    color: blue;
+    /* background-color: blue; */
+    font-weight: 800;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: -55px;
+
+}
+.Advertisement .addlocation{
+    margin-left: 190px;
+   margin-top: 30px;
+
+}
+
+.Advertisement .addlocation .companycity{
+    color: black;
+    /* background-color: blue; */
+    font-weight: 800;
+    width: 200px;
+    margin-left: -30px;
+
+}
+.Advertisement .addlocation .companycountry{
+    color: grey;
+    /* background-color: blue; */
+    font-weight: 800;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: -80px;
+   
+}
+
+.Advertisement .addpackage{
+    margin-left: 19px;
+   margin-top: 30px;
+
+}
+.Advertisement .addpackage h3{
+    color: black;
+}
+
+.Advertisement .addpackage Button{
+    color: white;
+    background-color: green;
+    width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Advertisement .addpackage Button:hover{
+    color: white;
+    background-color: rgb(60, 155, 60);
+    width: 130px;
+}
+
+
+
+
+/* responsive web page  */
+
+@media screen and (max-width: 1155px) {
+
+    .Advertisement .addpackage{
+        font-size: 0.7rem;
+        margin-left: -40px;
+       margin-top: 30px;
+        
+    }
+  
+}
+@media screen and (max-width: 1113px) {
+
+    .Advertisement .addpackage{
+        margin-left: -70px;
+       margin-top: 30px;
+    
+    }
+    .Advertisement .addpackage Button{
+        justify-content: center;
+    }
+    .Advertisement .addname{
+       margin-left: 10px;
+    
+    }
+    .Advertisement .addlocation{
+            
+        margin-left: -50px;
+    }
+}
+@media screen and (max-width: 970px) {
+
+
+    .Advertisement .addlogo img{
+        margin-top: 20px;
+        width: 100px;
+        height: 50px;
+        margin-right: 20px;
+    }
+
+    .Advertisement .addpackage{
+        margin-left: -100px;
+       margin-top: 30px;
+    
+    }
+    .Advertisement .addpackage Button{
+        color: white;
+        background-color: green;
+        width: 110px;
+        font-size: 0.6rem;
+    }
+   
+     .Advertisement .addlocation{
+             font-size: 0.9rem;
+         margin-left: -80px;
+     }
+     .Advertisement .addlocation .companycountry{
+        font-size: 0.9rem;
+    margin-left: -50px;
+}
+}
+@media screen and (max-width: 800px) {
+
+    .Advertisement .addlogo img{
+        margin-top: 20px;
+        width: 100px;
+        height: 50px;
+        margin-right: 20px;
+    }
+    
+    .Advertisement .addpackage{
+        margin-left: -170px;
+       margin-top: 30px;
+    
+    }
+    .Advertisement .addname{
+
+            font-size: 0.7rem;
+     }
+     .Advertisement .addname .companytime{
+        width: 100px;
+        margin-left: -130px;
+    }
+    .Advertisement .addname .companyname{
+        margin-left: -220px;
+    }
+    .Advertisement .addlocation{
+    
+        margin-left: -260px;
+    }
+
+}

@@ -1,0 +1,53 @@
+.Header {
+  width: 100%;
+  height: fit-content;
+}
+.Header .logo {
+  flex-basis: clamp(15vw, 20%, 30vw);
+}
+.Header .navigation {
+  flex-basis: clamp(50vw, 55%, 60vw);
+}
+.Header .logo,
+.Header .navigation {
+  margin: 10px 5px;
+}
+.Header .navigation ul,
+.Header .navigation ul> div {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.Header .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0px auto;
+}
+.Header ul li a {
+  padding: 3px 10px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.Header>ulli a:hover {
+  background-color: rgb(150, 150, 150, 0.1);
+}
+.Header .header-bell-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.Header span.notification-number {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background-color: tomato;
+  color: white;
+  font-size: 10px;
+  border-radius: 50%;
+  text-align: center;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}

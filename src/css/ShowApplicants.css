@@ -1,0 +1,54 @@
+/* Show Applicant css */
+.applicants-wrapper {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+}
+.applicants-heading {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.applicants-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.applicants-content .applicant-details {
+    min-width: clamp(30vw, 10%, 40vw);
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.075);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px 0px;
+}
+.applicants-content .applicant-details > div {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.applicants-content .applicant-details > div > h5 {
+    flex-basis: 20%;
+}
+.applicant-details > .applicant-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+.applicant-btn > input[type="button"] {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 2px 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+.applicant-btn > input[type="button"].accept-btn {
+    background-color: dodgerblue;
+}
+.applicant-btn > input[type="button"].reject-btn {
+    background-color: tomato;
+}

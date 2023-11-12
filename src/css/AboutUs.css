@@ -1,0 +1,84 @@
+.AboutUs{
+    height: 550px;
+    z-index: 1;
+    /* background-color: rgb(149, 214, 240); */
+   
+}
+
+/* .AboutUs.a1{position: absolute;
+
+    height: 170px;
+    width: 98.52%;
+   
+    font-size: 80px;
+    text-align: center;
+    padding-left: 10px;
+    color: rgba(12, 88, 62, 0.8);
+} */
+
+.AboutUs.aboutus-table1{
+    position: absolute;
+    top: 270px;
+    left: 400px;
+    z-index: 2;
+   background: transparent;
+    height: 1600px;
+    width: 800px;
+   
+}
+.aut1-11{
+  
+   
+    background-image: url(../views/Images/d9.jpg);
+    background-size: 100% 100%;
+    border-radius: 100px;
+    padding: 5px 5px 5px;
+}
+.aut1-12-ha1{
+    font-size: 50px;
+    z-index: 1;
+    background: transparent;
+   
+}
+.aut1-12-ha2{
+    
+   background: transparent;
+}
+
+
+.aut1-21-ha1{
+    font-size: 50px;
+}
+.aut1-22{
+    background-color: rgba(255, 255, 255, 0);
+
+    background-image: url(../views/Images/d11.jpg);
+    background-size: cover;
+    border-radius: 100px;
+}
+
+.aboutus-table2{
+    position: absolute;
+    top:900px ;
+    left: 200px;
+    height: 300px;
+    width: 1200px;
+    font-style: bold ;
+   
+   
+}
+
+.aut2-11{ position: relative;
+    left: 450px;
+    bottom: 10px;
+    height: 100px;
+    width: 1200px;
+    font-size: 200%;
+    text-align: center;
+   
+}
+.aut2-21{
+    height: 100px;
+    width: 10%;
+    background-image: url(../views/Images/d17.jpg);
+}

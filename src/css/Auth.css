@@ -1,0 +1,50 @@
+.Card {
+    text-align: center;
+    padding: 40px 30px;
+    margin: 15px auto;
+    min-height: 30vh;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+}
+.Card .Header p {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.Card select,
+.Card input {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    font-size: 15px;
+    justify-content: center;
+}
+.Card input[type="email"],
+.Card input[type="text"],
+.Card input[type="number"],
+.Card input[type="date"],
+.Card select,
+.Card input[type="password"],
+.Card input[type="submit"] {
+    margin: 4px 0;
+    padding: 10px 15px;
+}
+.Card input[type="submit"] {
+    border: 1px solid #fff;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #3366cc;
+    color: #fff;
+    text-align: center;
+}
+.Card label {
+    font-size: 40px;
+    text-align: left;
+}
+.Card a {
+    font-size: 14px;
+}
+select option {
+    color: #000;
+}

@@ -1,0 +1,33 @@
+h1 {
+  text-align: center;
+}
+.grid-wrapper {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0.8rem;
+  margin-bottom: 20px;
+}
+
+ .grid-wrapper .content {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  grid-gap: 2rem;
+}
+.grid-wrapper .grid-head{
+  display: flex;
+  align-items: center;
+}
+.grid-head h1{
+  flex:90%;
+
+}
+.grid-head .add-icon{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: rgb(93, 93, 255);
+  color:white;
+  text-align: center;
+  border:none;
+}

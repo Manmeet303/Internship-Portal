@@ -1,0 +1,103 @@
+/* dashbaord css */
+.Dashboard {
+    display: flex;
+    min-width: 70%;
+    min-height: 70vh;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.Dashboard .internship-div,
+.Dashboard .job-div,
+.Dashboard .placement-div {
+    height: 10rem;
+    min-width: 15rem;
+    color: black;
+    /* border: 0.5px solid black; */
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.075);
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Dashboard .internship-div:hover,
+.Dashboard .job-div:hover,
+.Dashboard .placement-div:hover {
+    box-shadow: var(--level-1-Shadow);
+    transition: all 0.2s ease-in-out;
+}
+.Dashboard .dashboard-btn {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 0.3rem;
+}
+.Dashboard .dashboard-btn button {
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+    min-width: 40%;
+    margin: 0 0.2rem;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.Dashboard .view-btn {
+    background-color: dodgerblue;
+    opacity: 0.9;
+}
+.Dashboard .add-btn {
+    background-color: mediumseagreen;
+    opacity: 0.9;
+}
+.Dashboard .dashboard-btn button:hover {
+    box-shadow: var(--level-1-Shadow);
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* recent applicants css */
+.applicants {
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 1px solid gray;*/
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.075);
+    border-radius: 5px;
+    padding: 0.4rem;
+    margin: 4px 0;
+}
+.applicants-details {
+    display: flex;
+    justify-content: space-between;
+}
+.applicants-details span {
+    display: flex;
+}
+.recent-applicants {
+    max-width: 90%;
+    margin: 0 auto;
+}
+.applicants .applicants-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.applicants .applicants-btn button {
+    padding: 0px 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(168, 167, 167);
+}
+.applicants .applicants-btn button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}

@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@308&display=swap");
+* {
+  font-family: "Heebo", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Profile h1 {
+  text-align: center;
+}
+.container {
+  margin: 50px 50px;
+}
+.row {
+  display: flex;
+}
+.login .row {
+  justify-content: center;
+}
+.profile-card {
+  padding: 30px;
+  margin: 0 15px;
+  color: white;
+  background-color: #3366cc;
+  width: 100%;
+  min-height: 30vh;
+}
+.login .profile-card {
+  width: 40%;
+}
+.title-name {
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+.accent {
+  font-size: 1.4rem;
+}
+.white-card {
+  background-color: #fff;
+  color: #000000;
+  box-shadow: 5px 0px 10px rgb(50 50 50 / 8%);
+}
+.card-title {
+  /* margin-bottom: 15px; */
+  font-size: 36px;
+}
+.card-sub-title {
+  color: #60a9f0;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+.info-title {
+  display: inline-block;
+  margin: 10px 100px 10px 0px;
+}
+.languages > ul {
+  list-style: none;
+}
+.profile-card-content {
+  padding-bottom: 40px;
+}
+.profile-card-content > li {
+  padding: 10px 0;
+}
+.title-div {
+  display: flex;
+  align-items: center;
+}
+.fa-plus::before {
+  font-size: 1rem;
+  color: #fff;
+}
+.fa-plus.black::before {
+  color: #000;
+}
+.fa-times::before {
+  font-size: 1rem;
+  color: #fff;
+}
+.fa-times.black::before {
+  color: #000;
+}
+.accomplishments {
+  display: flex;
+}
+
+/* COmpany Side CSS */
+.profile-card .contact .location-section {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.profile-card .contact .location-section div{
+    margin: 10px 5px;
+}

@@ -1,0 +1,36 @@
+.company-info-div {
+  width: 90%;
+  height: fit-content;
+  border: 1px solid black;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: var(--level-1-Shadow);
+}
+.company-info-div .details .about,
+.company-info-div .details .contact,
+.company-info-div .details .projects,
+.company-info-div .details .achievements {
+  display: flex;
+  align-items: center;
+  margin: 5px 0px;
+}
+.company-info-div .details div h4 {
+  flex-basis: 140px;
+  align-self: flex-start;
+}
+.details .tag span{
+  background-color: rgb(87, 174, 255);
+  color: white;
+  border-radius: 2px;
+  padding: 0px 4px;
+}
+.details .project-info,
+.details .achievement-info {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.details .tag span{
+    margin: 0px 10px;
+}

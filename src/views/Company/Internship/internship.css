@@ -1,0 +1,11 @@
+.internship .HeaderCard{
+    display: flex;
+    
+}
+.internship-card{
+    width:45%;
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin:20px;
+}

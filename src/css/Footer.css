@@ -1,0 +1,33 @@
+.Footer {
+    width: 100%;
+}
+.Footer .FooterContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: var(--footerColor);
+}
+.Footer .box {
+    display: inline-block;
+    width: 50%;
+}
+.Footer .box#box-left .navlist a {
+    padding: 0px 5px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.Footer .box#box-left .navlist a:hover {
+    background-color: rgb(150, 150, 150, 0.1);
+}
+.Footer .box#box-left {
+    padding-left: 55px;
+}
+.Footer .logo {
+    flex-basis: clamp(15vw, 20%, 30vw);
+    margin: 10px 5px;
+}
+.Footer .Copyright {
+    font-weight: 800;
+    font-size: 12px;
+}

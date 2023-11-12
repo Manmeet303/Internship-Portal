@@ -1,0 +1,101 @@
+.yellow-box{
+    width: 270px;
+    height: 340px;
+    background-color: rgba(190, 194, 197, 0.2);
+    box-shadow: 0 5px 5px 0;
+    border-radius: 20px ;
+    /* box-shadow: 0px 15px 7px 0px; */
+}
+
+.box-card{
+    width: 270px;
+    height: 350px;
+    background-color: rgb(218, 216, 216);
+    box-shadow: 0 2px 3px 0 grey;
+    border-radius: 20px ;
+    transform: translate(10px,-25px);
+    /* box-shadow: 0px 15px 7px 0px; */
+}
+.box-card:hover {
+    width: 270px;
+    height: 350px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    /* background: linear-gradient(rgba(0, 26, 255, 0.2) , rgba(0, 98, 255, 0.9) ) rgb(230, 230, 230); */
+    box-shadow: 0 5px 5px 0 grey; 
+    border-radius: 20px ;
+    transform: translateY(-10px);
+    transition: 0.1s;
+    
+}
+
+.img-logo{
+   padding-top: 50px;
+   height: 25vh;
+    text-align: center;
+  
+}
+.box-card .logo-icon-img{
+    width:100px;
+    height: 100px;
+}
+
+.card-title{
+    font-size: 1rem;
+    text-align: center;
+    /* color: #7e7171; */
+    color: rgb(26, 26, 26);
+    /* height: 20vh; */
+
+}
+.category-name{
+    padding-top: 50px;
+    font-size: 1rem;
+    text-align: center;
+    /* color: #7e7171; */
+    color: rgb(26, 26, 26);
+    /* height: 20vh; */
+
+}
+.card-body .para-text{
+    font-size: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(26, 26, 26);
+    height: 20vh;
+}
+.card-body .para-text2{
+    padding-top: 30px;
+    font-size: 1rem;
+    color: rgb(255, 0, 85);
+}
+/* .card-body .button1{
+    background-color: rgb(165, 132, 255);
+    padding: 5px 2px 2px 2px;
+    margin-left: 115px;
+    color: black;
+    box-shadow: 0 2px 5px 0px rgba(0,0,0,0.5);
+    transform: translateY(5px);
+    transition: 0.5s;
+}
+.card-body .button1:hover{
+    background-color: rgb(0, 62, 233);
+    padding: 5px 2px 2px 2px;
+    margin-left: 115px;
+    color: black;
+    box-shadow: 0 2px 5px 0px rgba(0,0,0,0.5);
+    transform: translateY(5px);
+    transition: 0.5s;
+} */
+
+
+
+
+/* .Category .box{
+    position: relative;
+    top: 110px;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(220,220,220,0.5);
+} */
+
