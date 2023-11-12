@@ -1,0 +1,23 @@
+{
+    "name": "intern-back-end",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon src/index"
+    },
+    "author": "ADIT-LEOMalay",
+    "license": "ISC",
+    "dependencies": {
+        "@fastify/session": "^6.2.0",
+        "bcrypt": "^5.0.1",
+        "connect-mongodb-session": "^3.1.1",
+        "fastify": "^3.22.0",
+        "fastify-compress": "^3.6.1",
+        "fastify-cookie": "^5.3.1",
+        "fastify-cors": "^6.0.2",
+        "fastify-formbody": "^5.1.0",
+        "mongoose": "^6.0.13",
+        "nodemon": "^2.0.13"
+    }
+}
